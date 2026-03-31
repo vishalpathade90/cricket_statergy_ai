@@ -1,0 +1,64 @@
+# Virtual Environments
+venv/
+venv311/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Generated data
+processed/
+*.csv
+tmp/
+
+# Large data files
+ipldata/
+raw_data/
+
+# Models (optional - comment out if you want to version control)
+models/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node (if using frontend build)
+node_modules/
+package-lock.json
