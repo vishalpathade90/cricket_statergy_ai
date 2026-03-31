@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "framework": "react",
+  "framework": "vite",
   "buildCommand": "npm run build --prefix frontend",
   "outputDirectory": "frontend/dist",
   "env": {
