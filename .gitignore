@@ -38,6 +38,7 @@ wheels/
 # Environment variables
 .env
 .env.local
+.env.*.local
 
 # Logs
 logs/
@@ -62,3 +63,11 @@ Thumbs.db
 # Node (if using frontend build)
 node_modules/
 package-lock.json
+
+# Vercel
+.vercel/
+.next/
+
+# Frontend build
+frontend/dist/
+frontend/build/
